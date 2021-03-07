@@ -1,4 +1,5 @@
 .navbar-nav{
+
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -6,17 +7,19 @@
   justify-content: space-between;
   padding-left: 33%;
   padding-right: 33%;
-padding-top: 5%;
+padding-top: 0%;
 }
 
 .nav-item{
+		background-image:url(images/clear-tape-11.png);
+	  background-repeat: no-repeat;
+  background-size: 100% 100%;
 	color: aqua;
    /* background-color:lightblue;*/
     margin:20px;
    text-decoration: none;
     display:inline-block;
-   background-color:black;
-/*   background-image:url(https://cdn.glitch.com/ab7de436-029e-49ad-ba15-86ce3c92cfa4%2Fclear-tape-11.png?v=1607390177294) ;*/
+   background-color:none;
     padding:5px 20px;
 /*    text-decoration:none;*/
     transition: .2s all;
@@ -24,31 +27,63 @@ padding-top: 5%;
   }
   
   .nav-item:hover{
-    background-color:white;
-  }
+	background-image:url(images/clear-tape-04.png);
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+	color: mediumpurple;
+/*    background-color:white;*/
   }
   
+  
 .nav-link{
-	color: black;
+	color: mediumpurple;
 }
-.body{
-	  margin: 10;
-  background-image:url(grainbg.jpg);
-/*	background-color: pink;*/
+.container {
+/*    width: 1200px;*/
+    margin: 0 auto;
+/*    box-sizing: border-box;*/
+    padding: 0 40px;
+}
+body{
+	align-content: center;
+	font-family: "Courier New", helvetica, arial, sans-serif;
+	margin: 10;
+	background-image:url("images/grainbg.jpg");
 	display:flex;
-flex-direction:column;
-    background: #555;
+	
+	flex-direction:column;
    /* color:#aaa;*/
-    color:#d6d6d6;
+    color:whitesmoke;
     
+}
+.hero{
+position:relative;
+  display: flex;
+/*  flex-wrap: wrap;*/
+ align-content: center;
+/*  padding-left: 01%;
+  padding-right: 01%;
+*/
+}
+.hero-image{
+	opacity: 70%;
+	background-size:;
 }
 
 a:link {
-    color: teal;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
-    color: mediumpurple;
+    color: lightsteelblue;
+}
+
+h1{
+	color: whitesmoke;
+	font-weight: 5 ;
+	position: relative;
+  display: flex;
+	align-content: center;
 }
