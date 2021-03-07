@@ -1,0 +1,54 @@
+.navbar-nav{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 33%;
+  padding-right: 33%;
+padding-top: 5%;
+}
+
+.nav-item{
+	color: aqua;
+   /* background-color:lightblue;*/
+    margin:20px;
+   text-decoration: none;
+    display:inline-block;
+   background-color:black;
+/*   background-image:url(https://cdn.glitch.com/ab7de436-029e-49ad-ba15-86ce3c92cfa4%2Fclear-tape-11.png?v=1607390177294) ;*/
+    padding:5px 20px;
+/*    text-decoration:none;*/
+    transition: .2s all;
+   /* border: 3px solid black;*/
+  }
+  
+  .nav-item:hover{
+    background-color:white;
+  }
+  }
+  
+.nav-link{
+	color: black;
+}
+.body{
+	  margin: 10;
+  background-image:url(grainbg.jpg);
+/*	background-color: pink;*/
+	display:flex;
+flex-direction:column;
+    background: #555;
+   /* color:#aaa;*/
+    color:#d6d6d6;
+    
+}
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: mediumpurple;
+}
