@@ -37,22 +37,30 @@
 .nav-link{
 	color: mediumpurple;
 }
+
+
 .container {
 /*    width: 1200px;*/
+/*background-image: url(images/DRS_Tape_Painters_09.PNG);
+	background-size: 12% 30%;
+	background-repeat: no-repeat;*/
     margin: 0 auto;
 /*    box-sizing: border-box;*/
-    padding: 0 40px;
+    padding: 50px 50px;
 }
 
 h1{
 	color: whitesmoke;
-	font-size: 3rem;
+	font-size: 2.2rem;
 	font-weight: 100;
 	text-align: center;
 }
 
 header{
-padding-top:2%;;
+padding-top:2%;
+//background-image: url(images/clear-tape-04.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 
 body{
@@ -80,9 +88,9 @@ body{
 	opacity: 70%;
 	background-size:;
 	display: flex;
-	 flex-wrap: wrap;
+	flex-wrap: wrap;
 	position:relative;
-	 align-content: center;
+	align-content: center;
 	padding-left: %;
 	
 }
