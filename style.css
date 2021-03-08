@@ -5,20 +5,21 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-left: 33%;
-  padding-right: 33%;
+  padding-left: 37%;
+  padding-right: 37%;
+ padding-bottom: 20px;
 }
+
 .nav-item{
-		background-image:url(images/clear-tape-11.png);
-	  background-repeat: no-repeat;
-  background-size: 100% 100%;
-	color: aqua;
-   /* background-color:lightblue;*/
+   background-image:url(images/clear-tape-11.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: aqua;
 /*    margin:20px;*/
    text-decoration: none;
-    display:inline-block;
+   display:inline-block;
    background-color:none;
-    padding:5px 20px;
+   padding:5px 20px;
 /*    text-decoration:none;*/
     transition: .2s all;
    /* border: 3px solid black;*/
@@ -51,7 +52,7 @@ h1{
 }
 
 header{
-padding:;
+padding-top:2%;;
 }
 
 body{
@@ -101,18 +102,20 @@ a:visited {
 
 .column{
   display: grid;
-  grid-template-columns: repeat(3,1.2fr);
+	  flex-wrap: wrap;
+  align-items: center;
+  grid-template-columns: repeat(3,1fr);
   grid-auto-rows: 45%;
-  grid-column-gap: 20px;
+  grid-column-gap: 5px;
   grid-row-gap: 20px;
 }
 
 
 .video{
-  
+     display:inline-block;
    display:flex;
     width:360px;
     height:200px;
     padding:20px;
-    margin: 20px;
+    margin:;
 }
