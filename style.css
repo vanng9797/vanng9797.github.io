@@ -7,16 +7,14 @@
   justify-content: space-between;
   padding-left: 33%;
   padding-right: 33%;
-padding-top: 0%;
 }
-
 .nav-item{
 		background-image:url(images/clear-tape-11.png);
 	  background-repeat: no-repeat;
   background-size: 100% 100%;
 	color: aqua;
    /* background-color:lightblue;*/
-    margin:20px;
+/*    margin:20px;*/
    text-decoration: none;
     display:inline-block;
    background-color:none;
@@ -44,6 +42,18 @@ padding-top: 0%;
 /*    box-sizing: border-box;*/
     padding: 0 40px;
 }
+
+h1{
+	color: whitesmoke;
+	font-size: 3rem;
+	font-weight: 100;
+	text-align: center;
+}
+
+header{
+padding:;
+}
+
 body{
 	align-content: center;
 	font-family: "Courier New", helvetica, arial, sans-serif;
@@ -57,10 +67,10 @@ body{
     
 }
 .hero{
-position:relative;
-  display: flex;
+/*position:relative;*/
+/*  display: flex;*/
 /*  flex-wrap: wrap;*/
- align-content: center;
+/* align-content: center;*/
 /*  padding-left: 01%;
   padding-right: 01%;
 */
@@ -68,7 +78,15 @@ position:relative;
 .hero-image{
 	opacity: 70%;
 	background-size:;
+	display: flex;
+	 flex-wrap: wrap;
+	position:relative;
+	 align-content: center;
+	padding-left: %;
+	
 }
+
+
 
 a:link {
     color: white;
@@ -80,10 +98,21 @@ a:visited {
     color: lightsteelblue;
 }
 
-h1{
-	color: whitesmoke;
-	font-weight: 5 ;
-	position: relative;
-  display: flex;
-	align-content: center;
+
+.column{
+  display: grid;
+  grid-template-columns: repeat(3,1.2fr);
+  grid-auto-rows: 45%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+
+.video{
+  
+   display:flex;
+    width:360px;
+    height:200px;
+    padding:20px;
+    margin: 20px;
 }
