@@ -14,28 +14,31 @@
    background-image:url(images/clear-tape-11.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   color: aqua;
+   color: black;
 /*    margin:20px;*/
    text-decoration: none;
    display:inline-block;
    background-color:none;
-   padding:5px 20px;
+   padding: 5px 20px;
 /*    text-decoration:none;*/
     transition: .2s all;
    /* border: 3px solid black;*/
   }
   
   .nav-item:hover{
+	
 	background-image:url(images/clear-tape-04.png);
 	background-repeat: no-repeat;
-  background-size: 100% 100%;
-	color: white;
+  background-size: 120% 120%;
+	color: black;
+	filter: brightness(90%);
+	font-size: 1.2rem;
 /*    background-color:white;*/
   }
   
   
 .nav-link{
-	color: white;
+	color: black;
 }
 
 
@@ -47,7 +50,7 @@
     margin: ;
 /*    box-sizing: border-box;*/
     padding: 50px;
-	align-content: center;
+	text-align: center;
 	justify-content:center;
 	flex-direction:column;
     display:flex;
@@ -55,25 +58,39 @@
 }
 
 h1{
-	color: white;
-	font-size: 2.2rem;
+	color: black;
+	font-size: 3rem;
+	font-weight:1;
+	text-align: center;
+}
+
+h2{
+	color: black;
+	font-size: 1.8rem;
+	background-image: url(images/clear-tape-24.png);
 	font-weight: 100;
 	text-align: center;
+}
+h3 {
+  font-size: 17px;
+  text-align: center;
 }
 
 header{
 padding-top:2%;
-//background-image: url(images/clear-tape-04.png);
-background-repeat: no-repeat;
-background-size: 100% 100%;
+//background-image: url(images/CRsNewYearPNGs7.png);
+	position: inherit;
+	  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 270%;
 }
 
 
 body{
 	align-content: center;
 	font-family: "Courier New", helvetica, arial, sans-serif;
-	margin: 10;
-	background-image:url("images/grainbg.jpg");
+	margin: 0px;
+	background-image:url("images/AU_FG_Texture-7.jpg");
 /*
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -82,7 +99,7 @@ body{
 	
 	flex-direction:column;
    /* color:#aaa;*/
-    color:whitesmoke;
+    color:black;
     
 }
 .hero{
@@ -108,7 +125,7 @@ body{
 
 
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -116,7 +133,7 @@ a:link {
 .column{
   display: grid;
   flex-wrap: wrap;
-  align-items: center;
+  text-align: center;
   grid-template-columns: repeat(3,1fr);
   grid-auto-rows: 45%;
   grid-column-gap: 5px;
@@ -136,12 +153,18 @@ a:link {
 }
 
 .video{
-    display:inline-block;
-    display:flex;
-    width:360px;
-    height:200px;
+   // display:inline-block;
+   // display:flex;
+    max-width:400px;
+    max-height:230px;
     padding:20px;
     margin:;
+	transition: .2s all;
+}
+.video:hover{
+	filter: drop-shadow(1px 1px 7px #00002a);
+	opacity: 90%;
+	
 }
 
 .pfp{
@@ -150,4 +173,17 @@ box-sizing: border-box;
 	padding: 20;
 	width:40%;
     height:40%;
+}
+
+footer {
+ padding-top: 20%;
+  padding-bottom: 0%;
+  position:relative;
+//background-image: url(images/CRsNewYearPNGs8.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 270%;
+  top: 70px;
+  color: black;
+  padding:0% 0% 5% 0%; /*top, right, bottom, left*/
 }
