@@ -11,7 +11,7 @@
 }
 
 .nav-item{
-   background-image:url(images/clear-tape-11.png);
+   background-image:url(images/theme/clear-tape-11.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
    color: black;
@@ -27,7 +27,7 @@
   
   .nav-item:hover{
 	
-	background-image:url(images/clear-tape-04.png);
+	background-image:url(images/theme/clear-tape-04.png);
 	background-repeat: no-repeat;
   background-size: 120% 120%;
 	color: black;
@@ -49,7 +49,7 @@
 	background-repeat: no-repeat;*/
     margin: ;
 /*    box-sizing: border-box;*/
-    padding: 50px;
+
 	text-align: center;
 	justify-content:center;
 	flex-direction:column;
@@ -67,7 +67,7 @@ h1{
 h2{
 	color: black;
 	font-size: 1.8rem;
-	background-image: url(images/clear-tape-24.png);
+	background-image: url(images/theme/clear-tape-24.png);
 	font-weight: 100;
 	text-align: center;
 }
@@ -89,7 +89,7 @@ body{
 	align-content: center;
 	font-family: "Courier New", helvetica, arial, sans-serif;
 	margin: 0px;
-	background-image:url("images/AU_FG_Texture-7.jpg");
+	background-image:url("images/theme/AU_FG_Texture-7.jpg");
 /*
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -99,6 +99,10 @@ body{
 	flex-direction:column;
    /* color:#aaa;*/
     color:black;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 .hero{
@@ -130,19 +134,14 @@ a:link {
 
 
 .column{
-  display: grid;
-  flex-wrap: wrap;
-  text-align: center;
-  grid-template-columns: repeat(3,1fr);
-  grid-auto-rows: 45%;
-  grid-column-gap: 5px;
-  grid-row-gap: 20px;
+	 display: block;
+margin: 2.5%;
+  //display: grid;
+  padding: 2.5% 0 5% 0;
+	 position: relative;
+	line-height: 1.8;
 }
-.row section{
-    padding-top: 30px;
-    padding-bottom: 40px;
-	
-}
+
 //.four.columns {
     width: 30.6666666667%;
 }
@@ -152,22 +151,35 @@ a:link {
 }
 
 .video{
-   // display:inline-block;
-   // display:flex;
+	
+object-fit: cover;
+/*
     max-width:400px;
-    max-height:230px;
-    padding:20px;
-    margin:;
+    max-height:auto;
+*/
+	width: 400px;
+  height: auto;
 	transition: .2s all;
 }
 .video:hover{
-	filter: drop-shadow(1px 1px 7px #00002a);
+	filter: drop-shadow(2px 2px 8px #00002a);
 	opacity: 90%;
-	
+	filter:brightness(5px);
+}
+.graphic{
+object-fit: cover;
+  width: 400px;
+  height: auto;
+transition: .2s all;
+}
+
+.graphic:hover{
+	filter: drop-shadow(2px 2px 8px #00002a);
+	opacity: 90%;
+	filter:brightness(5px);
 }
 
 .pfp{
-	width: 100%;
 box-sizing: border-box;
 	padding: 20;
 	width:40%;
@@ -178,11 +190,8 @@ footer {
  padding-top: 20%;
   padding-bottom: 0%;
   position:relative;
-//background-image: url(images/CRsNewYearPNGs8.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100% 270%;
   top: 70px;
   color: black;
   padding:0% 0% 5% 0%; /*top, right, bottom, left*/
 }
+
