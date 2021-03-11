@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding:0% 40% 2% 40%;
+  padding:1% 40.5% 2% 40.5%;
 }
 
 .nav-item{
@@ -64,13 +64,14 @@ h1{
 h2{
 	color: black;
 	font-size: 1.8rem;
-	background-image: url(images/theme/ps_02.png);
-	background-size:20%;
+	background-image: url(images/theme/ps_08.png);
+	background-size:105%;
 	background-repeat: no-repeat;
 	background-position: center;
 	font-weight: 100;
 	text-align: center;
-	margin-top: 5%;
+	padding:2.2%;
+	//margin-top: 5%;
 }
 h3 {
   font-size: 12px;
@@ -117,11 +118,11 @@ a:link {
 
 .column{
 	 display: block;
-margin: 2.5%;
+margin: 2%;
   //display: grid;
   padding: 2.5% 0 5% 0;
 	 position: relative;
-	line-height: 1.8;
+	line-height: 1.25;
 }
 
 //.four.columns {
@@ -144,8 +145,8 @@ object-fit: cover;
 	transition: .2s all;
 }
 .video:hover{
-	filter: drop-shadow(2px 2px 8px #00002a);
-	opacity: 90%;
+	filter: drop-shadow(2px 2px 9px #00002a);
+	opacity: 85%;
 	filter:brightness(5px);
 }
 .graphic{
@@ -190,8 +191,12 @@ p{
 }
 
 footer {
+	background-image: url(images/theme/ps_02.png);
+		background-size:110%;
+	background-repeat: no-repeat;
+	background-position: center;
   position:relative;
   color: black;
-  padding:15% 0% 0% 0%; /*top, right, bottom, left*/
+  padding:5% 0% 5% 0%; /*top, right, bottom, left*/
 }
 
