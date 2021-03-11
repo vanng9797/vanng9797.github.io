@@ -5,18 +5,16 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-left: 37%;
-  padding-right: 37%;
- padding-bottom: 20px;
+  padding:0% 40% 2% 40%;
 }
 
 .nav-item{
+	font-size: 12px;
    background-image:url(images/theme/clear-tape-11.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
    color: black;
-/*    margin:20px;*/
-   text-decoration: none;
+  font-weight: bold;
    display:inline-block;
    background-color:none;
    padding: 5px 20px;
@@ -30,12 +28,11 @@
 	background-image:url(images/theme/clear-tape-04.png);
 	background-repeat: no-repeat;
   background-size: 120% 120%;
-	color: black;
-	filter: brightness(90%);
+	color: white;
+	filter: brightness(100%);
 	font-size: 1.2rem;
 /*    background-color:white;*/
   }
-  
   
 .nav-link{
 	color: black;
@@ -62,17 +59,22 @@ h1{
 	font-size: 3rem;
 	font-weight:1;
 	text-align: center;
+	margin-bottom: 0%;
 }
 
 h2{
 	color: black;
 	font-size: 1.8rem;
-	background-image: url(images/theme/clear-tape-24.png);
+	background-image: url(images/theme/ps_02.png);
+	background-size:20%;
+	background-repeat: no-repeat;
+	background-position: center;
 	font-weight: 100;
 	text-align: center;
+	margin-top: 5%;
 }
 h3 {
-  font-size: 17px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -87,15 +89,15 @@ padding-top:2%;
 
 body{
 	align-content: center;
-	font-family: "Courier New", helvetica, arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
+	//font-family: "Courier New", helvetica, arial, sans-serif;
 	margin: 0px;
-	background-image:url("images/theme/AU_FG_Texture-7.jpg");
+	//background-image:url("images/theme/AU_FG_Texture-7.jpg");
 /*
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 */
 	display:flex;
-	
 	flex-direction:column;
    /* color:#aaa;*/
     color:black;
@@ -174,24 +176,42 @@ transition: .2s all;
 }
 
 .graphic:hover{
-	filter: drop-shadow(2px 2px 8px #00002a);
+	filter: drop-shadow(2px 2px 8px #000000);
 	opacity: 90%;
 	filter:brightness(5px);
 }
 
+.container2 {
+    //display: grid;
+    //grid-template-columns: auto;
+    width: 90%;
+    //grid-column-gap: 1%;
+   // grid-row-gap: 1%;
+    justify-content:center;
+    padding:2.5% 5% 2.5% 5%;
+    /*top, right, bottom, left*/
+  }
+
 .pfp{
-box-sizing: border-box;
-	padding: 20;
-	width:40%;
-    height:40%;
+	padding-left: 10%;
+	float: left;
+	width:33%;
+    height:33%;
+}
+
+p{
+	padding-top: 1.5%;
+	font-size: 15px;
+    width: 80%;
+    text-align: left;
+    padding-left: 10%;
+   padding-right: 15%;
+ 	
 }
 
 footer {
- padding-top: 20%;
-  padding-bottom: 0%;
   position:relative;
-  top: 70px;
   color: black;
-  padding:0% 0% 5% 0%; /*top, right, bottom, left*/
+  padding:15% 0% 0% 0%; /*top, right, bottom, left*/
 }
 
