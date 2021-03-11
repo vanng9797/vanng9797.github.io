@@ -24,13 +24,12 @@
   }
   
   .nav-item:hover{
-	
 	background-image:url(images/theme/clear-tape-04.png);
 	background-repeat: no-repeat;
   background-size: 120% 120%;
 	color: white;
 	filter: brightness(100%);
-	font-size: 1.2rem;
+	font-size: .8rem;
 /*    background-color:white;*/
   }
   
