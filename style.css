@@ -56,7 +56,7 @@
 
 h1{
 	color: black;
-	font-size: 3rem;
+	font-size: 2.8rem;
 	font-weight:1;
 	text-align: center;
 	margin-bottom: 0%;
@@ -105,25 +105,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    
-}
-.hero{
-/*position:relative;*/
-/*  display: flex;*/
-/*  flex-wrap: wrap;*/
-/* align-content: center;*/
-/*  padding-left: 01%;
-  padding-right: 01%;
-*/
-}
-.hero-image{
-	opacity: 70%;
-	background-size:;
-	display: flex;
-	flex-wrap: wrap;
-	position:relative;
-	align-content: center;
-	padding-left: %;
 	
 }
 
