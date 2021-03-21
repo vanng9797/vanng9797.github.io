@@ -101,7 +101,7 @@ body{
 }
 
 a:link {
-    color: black;
+    color: mediumpurple;
     text-decoration: none;
 }
 
@@ -115,7 +115,6 @@ line-height: 1.25;
 
 .column img{
 width: 50%;	
-	
 }
 .row {
   display: flex;
@@ -136,6 +135,11 @@ width: 50%;
   width: 100%;
 }
 
+.column video{
+margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .col {
@@ -222,12 +226,14 @@ p{
     text-align: left;
     padding-left: 10%;
    padding-right: 15%;
- 	
+	 letter-spacing: 1px;
 }
+
 .description{
-	margin-left:12%;
-	margin-left:12%;
+	margin-left:25%;
+	margin-right:25%;
 	padding-bottom:2%;
+	line-height: 1.8;
 }
 .wrapper{
 	left: -2615.46px;
