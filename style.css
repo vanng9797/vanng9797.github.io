@@ -171,7 +171,8 @@ object-fit: cover;
     max-width:400px;
     max-height:auto;
 */
-	width: 400px;
+/*width: 400px;*/
+	margin:5px;
   height: auto;
 	transition: .2s all;
 }
